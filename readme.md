@@ -1,4 +1,4 @@
-[Check out Website]()
+[Check out Website](https://mayank-https.github.io/learn-modular-webpack/)
 
 This website demonstrates using webpack plugins to create a simple site using the modular pattern approach.
 

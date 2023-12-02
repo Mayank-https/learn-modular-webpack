@@ -27,7 +27,9 @@ module.exports = {
   plugins: [
     new htmlWebpackPlugin({
       template: './src/mock.html',
-      filename: 'index.html'
+      filename: 'index.html',
+      favicon: './src/images/recipe-book.png',
+      hash: true,
     })
   ]
 }

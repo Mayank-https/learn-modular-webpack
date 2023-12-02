@@ -10,5 +10,5 @@ void function main() {
   $('#home-link').onclick = home;
   $('#menu-link').onclick = menu;
   $('#contact-link').onclick = contact;
-  $('#contact-link').click();
+  $('#home-link').click();
 }();

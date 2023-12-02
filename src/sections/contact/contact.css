@@ -1,0 +1,25 @@
+#contact {
+  display: grid;
+  min-height: 100%;
+  place-content: center;
+  font-weight: bold;
+}
+
+#contact menu {
+  list-style: circle;
+  background-color: var(--blackt);
+  border-radius: 10%;
+
+  & li {
+    font-size: calc(1rem + 1vw);
+    padding: 1rem;
+
+  & a {
+    color: yellow;
+    text-decoration: none;
+    &:hover {
+      text-decoration: revert;
+    }
+  }
+  }
+}
